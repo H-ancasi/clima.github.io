@@ -26,7 +26,6 @@ El servidor responde con los datos del clima y el cliente los muestra de forma v
 Aunque GitHub Pages solo sirve archivos estáticos (HTML, CSS, JS), la comunicación con la API mantiene la idea de cliente-servidor, ya que la web sigue pidiendo datos a un servicio externo y mostrando la respuesta al usuario.
 
 ###
-#Esta parte del despliegue es provisional, si la quereis que sea asi en general o que cada uno ponga su punto de vista.
 
 Despliegue:
 
@@ -37,3 +36,9 @@ Ver cómo la aplicación funcionaba directamente desde una URL pública fue bast
 
 En resumen, la experiencia con GitHub Pages fue al principio algo complicada, pero según pasabamos el timepo en ella nos ibamos acostumbrando, eso si, aún nos falta por aprender.
 ###
+
+Mantenimiento:
+
+Hemos encontrado mientras desarrollabamos esta página algunos errores, sobretodo relacionado con el API, ya que al principio no se conectaba bien con la página y daba errores (no se conectaba) donde tuvimos que esperar a que el API se cargara y ya empezó a funcionar en la web.
+
+Una mejora importante es que el API a usar es privada y se encuentra pública, a pesar de que hemos buscado maneras de solucionar este problema, debido a la complejidad de estas y la falta de conocimiento y versatilidad por nuestra parte hemos decidido dejar la API pública (si hay mucho transito en esta simplemente se desactivará)
