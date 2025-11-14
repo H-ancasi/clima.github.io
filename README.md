@@ -1,6 +1,6 @@
 # Entornos-de-desarrollo--GitHub-Pages
 
-Planificación: Para pensar que ibamos a hacer hicimos una lluvia de idea, algunas resultaban algo complejas mientras que otras no llegaban de encajar, es ahí que descubrimos las API's, así que nos pusimos curiosos e investigamos las diversas API's que nos encontrabamos, hasta que dimos con OpenWeather, una APi que nos permitia saber el tiempo que hacia alrededor del mundo. Elegimos esta ya que junto a ella apareció una gran idea, que dependiendo del tiempo que hiciera en cada lugar el fondo cambiara adecuandose a este. 
+Planificación: Para pensar que ibamos a hacer hicimos una lluvia de idea, algunas resultaban algo complejas mientras que otras no llegaban de encajar, es ahí que descubrimos las API's, así que nos pusimos curiosos e investigamos las diversas API's que nos encontrabamos, hasta que dimos con OpenWeather, una API que nos permitia saber el tiempo que hacia alrededor del mundo. Elegimos esta ya que junto a ella apareció una gran idea, que dependiendo del tiempo que hiciera en cada lugar el fondo cambiara adecuandose a este. 
 
 Así dió inicio a nuestro trabajo de crear una aplicación del tiempo: el usuario escribe el nombre de una ciudad y la página muestra el clima actual. Según el tiempo que haga, el fondo cambia (si era soleado fondo azul, si era nublado gris, si era de noche azul oscuro,etc)
 
@@ -34,11 +34,11 @@ Primero subimos todos los archivos del proyecto al repositorio de GitHub, y desp
 Al principio tuvimos que ajustar un par de cosas, como las rutas de los archivos o el nombre del index.html, pero una vez todo estuvo en orden, la página se cargó perfectamente.
 Ver cómo la aplicación funcionaba directamente desde una URL pública fue bastante motivador, ya que podiamos comprobar que los cambios se actualizaban automáticamente cada vez que hacíamos un nuevo commit o merge.
 
-En resumen, la experiencia con GitHub Pages fue al principio algo complicada, pero según pasabamos el timepo en ella nos ibamos acostumbrando, eso si, aún nos falta por aprender.
+En resumen, la experiencia con GitHub Pages fue al principio algo complicada, pero según pasabamos el tiempo en ella nos ibamos acostumbrando, eso si, aún nos falta por aprender.
 ###
 
 Mantenimiento:
 
-Hemos encontrado mientras desarrollabamos esta página algunos errores, sobretodo relacionado con el API, ya que al principio no se conectaba bien con la página y daba errores (no se conectaba) donde tuvimos que esperar a que el API se cargara y ya empezó a funcionar en la web.
+Mientras desarrollabamos esta página encontramos algunos errores, sobretodo relacionado con la API, ya que al principio no se conectaba bien con la página y daba errores (no se conectaba) donde tuvimos que esperar a que la API se cargara y ya empezó a funcionar en la web.
 
-Una mejora importante es que el API a usar es privada y se encuentra pública, a pesar de que hemos buscado maneras de solucionar este problema, debido a la complejidad de estas y la falta de conocimiento y versatilidad por nuestra parte hemos decidido dejar la API pública (si hay mucho transito en esta simplemente se desactivará)
+Una mejora importante es que la API a usar es privada y se encuentra pública, a pesar de que hemos buscado maneras de solucionar este problema, debido a la complejidad de estas y la falta de conocimiento y versatilidad por nuestra parte hemos decidido dejar la API pública (si hay mucho tránsito en esta simplemente se desactivará)
